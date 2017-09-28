@@ -1,0 +1,17 @@
+/* Default styling */
+.grid-item { font-size: 2em; }
+
+/* Exercise */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+@media (min-width: 500px) {
+    .content-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .content-grid { grid-template-columns: repeat(3, 1fr); }
+}
