@@ -1,0 +1,35 @@
+/* Some default styles */
+body { font-family: Arial, sans-serif; }
+
+a {
+    display: inline-block;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.grid-container {
+    min-height: 600px;
+    padding: 1rem;
+    background-color: #e1e1e1;
+}
+
+.grid-item { padding: .5rem; }
+
+.grid-item span { font-size: 2em; }
+
+.grid-item p { margin-bottom: 0; }
+
+.item-1 { background: #7FDBFF; }
+.item-2 { background: #39CCCC; }
+.item-3 { background: #3D9970; }
+.item-4 { background: #2ECC40; }
+.item-5 { background: #01FF70; }
+.item-6 { background: #FFDC00; }
+
+/* Grid stuff */
+.grid-container {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: 40px 50px auto 50px 40px;;*/
+}
