@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | CSS Grid Code Class</title>
+
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+    <style>
+        .app-menu {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1.5rem;
+            padding: 0;
+        }
+
+        .app-menu li {
+            background-color: #ebebeb;
+            border: 1px solid #dcdcdc;
+        }
+
+        .app-menu li:first-of-type { grid-column: 1 / -1; }
+
+        .app-menu a {
+            display: block;
+            height: 100%;
+            padding: 1.25rem;
+            color: #222;
+            text-align: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<header class="app-header">
+    <a class="app-header-link" href="/">
+        <img class="app-header-logo" src="/assets/images/voorhoede-logo.svg" alt="logo">
+    </a>
+    <h1 class="app-header-title">Code Class</h1>
+    <h2 class="app-header-subtitle">CSS Grid</h2>
+</header>
+<main class="main">
+    <nav>
+        <ul class="app-menu">
+            <li>
+                <a href="/introduction/0-grid-columns/index.html"><span>Introduction</span></a>
+            </li>
+            <li>
+                <a href="/exercises/exercise-1/exercise-1.html"><span>Exercise 1 - Define A Grid</span></a>
+            </li>
+            <li>
+                <a href="/exercises/exercise-2/exercise-2.html"><span>Exercise 2 - Define Grid Areas</span></a>
+            </li>
+            <li>
+                <a href="/exercises/exercise-3/exercise-3.html"><span>Exercise 3 - Position Items On Grid</span></a>
+            </li>
+            <li>
+                <a href="/exercises/exercise-4/exercise-4.html"><span>Exercise 4 - Align Items & Content</span></a>
+            </li>
+        </ul>
+    </nav>
+</main>
+<footer class="app-footer">
+    <p>2017 &#8212; <a class="link" href="https://www.voorhoede.nl/">De Voorhoede</a></p>
+</footer>
+</body>
+</html>
