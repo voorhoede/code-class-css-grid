@@ -1,0 +1,15 @@
+{
+    "name": "code-class-css-grid",
+    "version": "1.0.0",
+    "description": "Code Class about CSS Grid",
+    "main": "index.js",
+    "scripts": {
+        "start": "cd src && python -m SimpleHTTPServer 8000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/voorhoede/code-class-css-grid.git"
+    },
+    "author": "De Voorhoede",
+    "license": "MIT"
+}
