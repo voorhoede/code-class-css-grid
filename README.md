@@ -1,6 +1,6 @@
 # Code Class CSS Grid
 
-Lorem ipsum.
+Demo's and exercises about CSS Grid.
 
 ## Getting started
 
