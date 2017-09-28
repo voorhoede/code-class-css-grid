@@ -1,0 +1,15 @@
+/* App footer */
+.app-footer {
+    padding: 1rem;
+    background-color: #eddd3e;
+}
+
+@media (min-width: 600px) {
+    .app-footer { padding: 2rem 1rem; }
+}
+
+.app-footer p {
+    margin-bottom: 0;
+    font-size: 0.825em;
+    text-align: center;
+}

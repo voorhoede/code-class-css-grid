@@ -1,0 +1,18 @@
+/* App header */
+.app-header {
+    padding: 1rem;
+    background-color: #eddd3e;
+    text-align: center;
+}
+
+.app-header-link { text-decoration: none; }
+
+.app-header .app-header-title,
+.app-header .app-header-subtitle { font-size: 1.25em; }
+
+.app-header .app-header-title { margin-bottom: 0.5rem; }
+
+@media (min-width: 600px) {
+    .app-header .app-header-title { font-size: 2.25em; }
+    .app-header .app-header-subtitle { font-size: 1.5em; }
+}
