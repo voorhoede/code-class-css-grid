@@ -1,0 +1,15 @@
+/* Default styling */
+.grid-item { font-size: 2em; }
+
+/* Exercise */
+.content-grid {
+
+}
+
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 900px) {
+
+}
