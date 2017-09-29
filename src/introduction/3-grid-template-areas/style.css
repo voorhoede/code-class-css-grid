@@ -24,33 +24,16 @@ a {
 .item-3 { background: #3D9970; }
 .item-4 { background: #2ECC40; }
 .item-5 { background: #01FF70; }
-.item-6 { background: #FFDC00; }
 
 /* Grid stuff */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    /*grid-template-areas:*/
-        /*"area-1 area-1 area-2"*/
-        /*"area-5 area-4 area-2"*/
-        /*"area-5 area-4 area-2"*/
-        /*"area-5 area-3 area-3";*/
-    /*grid-template-areas:*/
-        /*"area-1 area-1 area-2"*/
-        /*"area-5 area-4 area-2"*/
-        /*"area-5 . area-2"*/
-        /*"area-5 area-3 area-3";*/
-    /*grid-template-areas:*/
-        /*"area-1 area-1 area-2"*/
-        /*"area-5 area-4 area-2"*/
-        /*"area-5 . area-2"*/
-        /*". area-3 area-3";*/
-    /*grid-template-areas:*/
-        /*"area-1 area-1 area-2"*/
-        /*"area-5 area-4 ."*/
-        /*"area-5 . area-2"*/
-        /*". area-3 area-3";*/
+    /*grid-template-areas: "area-1 area-1 area-2" "area-5 area-4 area-2" "area-5 area-4 area-2" "area-5 area-3 area-3";*/
+    /*grid-template-areas: "area-1 area-1 area-2" "area-5 area-4 area-2" "area-5 . area-2" "area-5 area-3 area-3";*/
+    /*grid-template-areas: "area-1 area-1 area-2" "area-5 area-4 area-2" "area-5 . area-2" ". area-3 area-3";*/
+    /*grid-template-areas: "area-1 area-1 area-2" "area-5 area-4 ." "area-5 . area-2" ". area-3 area-3";*/
 }
 
 /*.item-1 { grid-area: area-1; }*/
