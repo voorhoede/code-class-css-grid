@@ -1,0 +1,29 @@
+/* Default styling */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #d7d7d7;
+}
+
+.grid-item { font-size: 2em; }
+
+@media (min-width: 500px) {
+    .content-grid { grid-template-columns: repeat(2, 200px); }
+}
+
+@media (min-width: 900px) {
+    .content-grid { grid-template-columns: repeat(2, 300px); }
+}
+
+/* Exercise */
+.content-grid {
+
+}
+
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 900px) {
+
+}
